@@ -14,4 +14,5 @@ func main() {
 	var k kelvin = 294.0
 	c := kelvinToCelsius(k)
 	fmt.Print(k, "º K is ", c, "º C")
+	fmt.Println()
 }

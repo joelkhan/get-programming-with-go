@@ -12,5 +12,5 @@ func main() {
 	fmt.Println(utf8.RuneCountInString(question), "runes")
 
 	c, size := utf8.DecodeRuneInString(question)
-	fmt.Printf("First rune: %c %v bytes", c, size)
+	fmt.Printf("First rune: %c %v bytes\n", c, size)
 }

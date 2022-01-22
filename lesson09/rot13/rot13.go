@@ -15,4 +15,5 @@ func main() {
 		}
 		fmt.Printf("%c", c)
 	}
+	fmt.Println()
 }
