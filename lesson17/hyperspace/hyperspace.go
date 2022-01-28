@@ -14,7 +14,10 @@ func hyperspace(worlds []string) {
 
 func main() {
 	planets := []string{" Venus   ", "Earth  ", " Mars"}
+	fmt.Println("before hyperspace:")
+	fmt.Println(strings.Join(planets, ""))
 	hyperspace(planets)
 
+	fmt.Println("after hyperspace:")
 	fmt.Println(strings.Join(planets, ""))
 }

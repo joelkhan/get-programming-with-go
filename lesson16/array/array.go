@@ -13,4 +13,14 @@ func main() {
 	fmt.Println(earth)
 	fmt.Println(len(planets))
 	fmt.Println(planets[3] == "")
+
+	someAnothers()
+}
+
+func someAnothers() {
+	somePlanets := []string{
+		"Jupiter",
+		"Saturn",
+	}
+	fmt.Println("some anothers:", len(somePlanets))
 }

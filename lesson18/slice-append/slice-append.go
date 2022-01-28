@@ -14,9 +14,13 @@ func main() {
 	dump("dwarfs1", dwarfs1)
 	dump("dwarfs2", dwarfs2)
 	dump("dwarfs3", dwarfs3)
+
+	fmt.Printf("1: %p, %p, %p\n", dwarfs1, dwarfs2, dwarfs3)
+
 	dwarfs3[1] = "Pluto!"
 
 	dump("dwarfs1", dwarfs1)
 	dump("dwarfs2", dwarfs2)
 	dump("dwarfs3", dwarfs3)
+	fmt.Printf("2: %p, %p, %p\n", dwarfs1, dwarfs2, dwarfs3)
 }

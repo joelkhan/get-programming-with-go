@@ -20,11 +20,14 @@ func main() {
 	}
 
 	fmt.Println(set)
+
 	unique := make([]float64, 0, len(set))
+	fmt.Printf("1: %p\n", &unique)
 	for t := range set {
 		unique = append(unique, t)
 	}
+	fmt.Printf("2: %p\n", &unique)
 	sort.Float64s(unique)
-
+	fmt.Printf("3: %p\n", &unique)
 	fmt.Println(unique)
 }

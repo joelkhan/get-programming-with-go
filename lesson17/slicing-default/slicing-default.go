@@ -24,4 +24,8 @@ func main() {
 	colonized := terrestrial[2:]
 
 	fmt.Println(colonized)
+
+	dwarfArr := [...]string{"ceres", "pluto", "haumea", "makemake", "eris"}
+	dwarfSli := dwarfArr[:]
+	fmt.Printf("%T %T\n", dwarfArr, dwarfSli)
 }
