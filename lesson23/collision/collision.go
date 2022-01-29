@@ -27,7 +27,7 @@ func (s sol) days(s2 sol) int {
 	}
 	return days
 }
-func (l location) days(l2 location) int {
+func (loc1 location) days(loc2 location) int {
 	// To-do: complicated distance calculation
 	return 5
 }
