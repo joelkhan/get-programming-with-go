@@ -7,7 +7,7 @@ type person struct {
 	age              int
 }
 
-func birthday(p *person) {
+func birthday(p person) {
 	p.age++
 	fmt.Println(p.age)
 }
@@ -19,7 +19,7 @@ func main() {
 		age:        14,
 	}
 
-	birthday(&rebecca)
+	birthday(rebecca)
 
 	fmt.Printf("%+v\n", rebecca)
 }

@@ -8,8 +8,8 @@ type location struct {
 }
 
 // String formats a location with latitude, longitude.
-func (l location) String() string {
-	return fmt.Sprintf("%v, %v", l.lat, l.long)
+func (loc location) String() string {
+	return fmt.Sprintf("%v, %v", loc.lat, loc.long)
 }
 
 func main() {

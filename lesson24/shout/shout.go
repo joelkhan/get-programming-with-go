@@ -13,8 +13,8 @@ func (m martian) talk() string {
 
 type laser int
 
-func (l laser) talk() string {
-	return strings.Repeat("pew ", int(l))
+func (lsr laser) talk() string {
+	return strings.Repeat("pew ", int(lsr))
 }
 
 type talker interface {
